@@ -8,7 +8,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.filters import Command
 
-API_TOKEN = '7878301618:AAG8Uw6NpnwFAL1cSyakRPviSlIlI9pjzYg'
+API_TOKEN = 'KEY'
 ADMIN_CHAT_ID = -1002222107724  # Заменить на ID админского чата
 
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN))
